@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.create_post">
+    <include layout="@layout/toolbar_create_post"
+        android:id="@+id/toolbar_create_post"/>
+    <LinearLayout
+        android:id="@+id/layout_1"
+        android:orientation="vertical"
+        android:layout_below="@id/toolbar_create_post"
+        android:layout_above="@id/layout_2"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_bg_post"
+            android:textColor="@color/white"
+            android:id="@+id/btn_post"
+            android:textAllCaps="false"
+            android:text="Đăng"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chia sẻ khoảnh khắc với mọi người. \nHôm nay bạn có chuyện gì hot hãy chia sẻ để mọi người cùng biết nào."
+            />
+        <EditText
+            android:id="@+id/edittext_status"
+            android:gravity="top|start"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="5dp"
+            android:maxLength="1000"
+            android:background="@drawable/box_edittext"/>
+        <TextView
+            android:id="@+id/textView_word_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 / 1000"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="end"
+            />
+        <ImageView
+            android:id="@+id/imgview_addpicture"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="start"
+            android:background="@drawable/box_image"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:src="@drawable/icon_plus"
+         />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_2"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="bottom"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box_enjimos_createpost">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_smile"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            app:tint="@color/white" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_addimage"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

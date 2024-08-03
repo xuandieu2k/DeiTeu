@@ -1,0 +1,47 @@
+
+g	java:S112N"FDefine and throw a dedicated exception instead of using a generic one.(Õ¸Š‰øÿÿÿÿ8Îş‘Æ1
+†
+java:S1319u"kThe type of "messages" should be an interface such as "SortedMap" rather than the implementation "TreeMap".(á¤¯üıÿÿÿÿ
+i
+java:S1104"TMake intValue a static final constant or non-public and provide accessors if needed.(õÌë+
+l
+java:S1104"QMake appId a static final constant or non-public and provide accessors if needed.(İ¡–şúÿÿÿÿ
+p
+java:S1104"ZMake appCertificate a static final constant or non-public and provide accessors if needed.(İÆ—¤
+r
+java:S1104"WMake channelName a static final constant or non-public and provide accessors if needed.(ğÂğÿÿÿÿÿ
+j
+java:S1104"OMake uid a static final constant or non-public and provide accessors if needed.(Ê¶È÷ıÿÿÿÿ
+k
+java:S1104 "UMake signature a static final constant or non-public and provide accessors if needed.(Ô½Ôü
+s
+java:S1104!"]Make messageRawContent a static final constant or non-public and provide accessors if needed.(ôÜåƒ
+u
+java:S1104""ZMake crcChannelName a static final constant or non-public and provide accessors if needed.(åÓºØûÿÿÿÿ
+h
+java:S1104#"RMake crcUid a static final constant or non-public and provide accessors if needed.(¨¯šÏ
+i
+java:S1104$"SMake message a static final constant or non-public and provide accessors if needed.(Úœ¾¾
+p
+java:S1104%"[Make expireTimestamp a static final constant or non-public and provide accessors if needed.(±Ü¤,
+k
+java:S1104s"PMake salt a static final constant or non-public and provide accessors if needed.(¢ÊÃøşÿÿÿÿ
+i
+java:S1104t"NMake ts a static final constant or non-public and provide accessors if needed.(äï»øøÿÿÿÿ
+o
+java:S1104u"TMake messages a static final constant or non-public and provide accessors if needed.(á¤¯üıÿÿÿÿ
+l
+java:S1104‹"UMake signature a static final constant or non-public and provide accessors if needed.(Ô½Ôü
+v
+java:S1104Œ"ZMake crcChannelName a static final constant or non-public and provide accessors if needed.(åÓºØûÿÿÿÿ
+i
+java:S1104"RMake crcUid a static final constant or non-public and provide accessors if needed.(¨¯šÏ
+r
+java:S1104"VMake rawMessage a static final constant or non-public and provide accessors if needed.(„œ©Îúÿÿÿÿ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(îîİíüÿÿÿÿ
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(·áÃô
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(…Ò±ûÿÿÿÿ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(½°·ÿÿÿÿÿ
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÖÇŞÏ
+8
+java:S3066"#Lower the visibility of this field.(õÌë+

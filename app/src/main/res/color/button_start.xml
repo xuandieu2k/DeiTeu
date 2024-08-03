@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@color/pink_custom" android:color="@color/white"/> <!-- nhấn -->
+    <item android:state_focused="true" android:drawable="@color/pink_custom" android:color="@color/white" /> <!-- focus -->
+    <item android:drawable="@color/green_custom" android:color="@color/white" /> <!-- bình thường -->
+</selector>

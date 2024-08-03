@@ -1,0 +1,37 @@
+
+c
+java:S1192-"HDefine a constant instead of duplicating this literal "Uid =  " 3 times.(Ë¿²ˆùÿÿÿÿ
+i
+java:S1192,"NDefine a constant instead of duplicating this literal "Uid = 0 \t\t " 3 times.(±±‡ìøÿÿÿÿ
+2
+java:S1643P"Use a StringBuilder instead.(«Í±ã
+7
+java:S1643Q"Use a StringBuilder instead.(÷ŸÿĞøÿÿÿÿ
+2
+java:S1643R"Use a StringBuilder instead.(ÿıÊº
+7
+java:S1643S"Use a StringBuilder instead.(°‚Ğıÿÿÿÿ
+Y
+java:S49733"<Strings and Boxed types should be compared using "equals()".(Ÿ£ê¡8™§ÇÆ1
+Y
+java:S49733"<Strings and Boxed types should be compared using "equals()".(Ÿ£ê¡8™§ÇÆ1
+@	java:S106"+Replace this use of System.out by a logger.(Ì¯†¬
+@	java:S106"+Replace this use of System.out by a logger.(Í“ÔÙ
+E	java:S106 "+Replace this use of System.out by a logger.(ôÚ…ÿÿÿÿÿ
+@	java:S106!"+Replace this use of System.out by a logger.(·¸¢ë
+E	java:S106""+Replace this use of System.out by a logger.(¡ÿÛ¹úÿÿÿÿ
+E	java:S106#"+Replace this use of System.out by a logger.(Îß£¶ıÿÿÿÿ
+@	java:S106$"+Replace this use of System.out by a logger.(­æ•­
+E	java:S106%"+Replace this use of System.out by a logger.(Õ Şâøÿÿÿÿ
+@	java:S106&"+Replace this use of System.out by a logger.(ôÂ„­
+E	java:S106("+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ
+E	java:S106)"+Replace this use of System.out by a logger.(ÃÊ´üÿÿÿÿ
+E	java:S106,"+Replace this use of System.out by a logger.(±±‡ìøÿÿÿÿ
+E	java:S106-"+Replace this use of System.out by a logger.(Ë¿²ˆùÿÿÿÿ
+E	java:S106/"+Replace this use of System.out by a logger.(Ô´ä‚úÿÿÿÿ
+E	java:S1060"+Replace this use of System.out by a logger.(©ÖÃüÿÿÿÿ
+@	java:S1064"+Replace this use of System.out by a logger.(½è¶Ù
+E	java:S1067"+Replace this use of System.out by a logger.(îøÎÏúÿÿÿÿ
+@	java:S1068"+Replace this use of System.out by a logger.(È›Ãà
+E	java:S106:"+Replace this use of System.out by a logger.(ùœŠ™øÿÿÿÿ
+@	java:S106G"+Replace this use of System.out by a logger.(âŒ½

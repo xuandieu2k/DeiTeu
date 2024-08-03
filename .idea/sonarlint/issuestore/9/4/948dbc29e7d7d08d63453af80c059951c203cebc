@@ -1,0 +1,27 @@
+
+J
+java:S1604V"(Make this anonymous inner class a lambda(¥íîŸÿÿÿÿÿ8Óî˜Æ1
+T
+java:S2589u"7Remove this expression which always evaluates to "true"(Æ¿ô¾8¢ï˜Æ1
+u
+java:S1450+"XRemove the "mDatabase" field and declare it as a local variable in the relevant methods.(Ó¼şÀ8¢ï˜Æ1
+„
+java:S1450("bRemove the "mGoogleSignInClient" field and declare it as a local variable in the relevant methods.(äáºêûÿÿÿÿ8¢ï˜Æ1
+q
+java:S1450*"TRemove the "mUser" field and declare it as a local variable in the relevant methods.(çÎùÜ8¢ï˜Æ1
+S
+java:S1874-"6Remove this use of "ProgressDialog"; it is deprecated.(™ƒ‹å8±ï˜Æ1
+S
+java:S18741"6Remove this use of "ProgressDialog"; it is deprecated.(½‡‘Ğ8±ï˜Æ1
+O
+java:S18742"2Remove this use of "setMessage"; it is deprecated.(ş‚¤—8±ï˜Æ1
+[
+java:S1874?">Remove this use of "startActivityForResult"; it is deprecated.(¡ıÄô8Áï˜Æ1
+f
+java:S1874B"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(¹Î¾8Áï˜Æ1
+X	java:S125]"<This block of commented-out lines of code should be removed.(€ò®Á8Ğï˜Æ1
+Ÿ
+java:S1186–"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦8Ğï˜Æ1
+Y	java:S125¢"<This block of commented-out lines of code should be removed.(«Âúç8ğï˜Æ1
+F
+java:S1068*")Remove this unused "mUser" private field.(çÎùÜ8ğï˜Æ1

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DeiTeu - Hẹn hò thôi</string>
+    <string name="facebook_app_id">957291905624657</string>
+    <string name="fb_login_protocol_scheme">fb957291905624657</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_head">Đóng góp của bạn sẽ góp phần giúp cho chúng tôi cải thiện và nâng cao chất lượng trải nghiệm hơn nữa.</string>
+    <string name="tv_headd">Cảm ơn bạn đã sử dụng dịch vụ của chúng tôi</string>
+<!--    -->
+    <string name="token">007eJxTYLDKMUlSfbVuj4fVyaWM+0uF1PtkVsqGR8jaLpn0+orWLksFBmMLozRzc6PE5KTEZJMkk8TEpCRzCxMLQ4O0VAMzy0TD7lkJKQ2BjAyWK4QYGRkgEMRnY0hJzSxJLWVgAADjbB3/</string>
+    <string name="appId">382f772acbac4b4aabb784810fe069a1</string>
+    <string name="chanel">deiteu</string>
+    <string name="appCertificate">916615add14c484c8cc17dd5d2a7a25b</string>
+<!--    -->
+    <string name="appIdCall">03e0ac874626487a89cae53b7663ae94</string>
+    <string name="tokenCall">007eJxTYOirfcU25aRdX9gF6Xe2idLV9xfIHdd/Z+j1f/LSS8drffIVGAyMUw0Sky3MTcyMzEwszBMtLJMTU02Nk8zNzIwTUy1N1s5KSGkIZGRYdX4jCyMDBIL4bAwpqZklqaUMDADYMyGh</string>
+    <string name="chanelCall">deiteu</string>
+    <string name="appCertificateCall">f5fcfbd54111426c844a686076bdfeeb</string>
+</resources>

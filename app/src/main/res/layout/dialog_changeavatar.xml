@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView"
+        android:src="@drawable/useimage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:civ_border_width="2dp"
+        app:civ_border_overlay="false"
+        app:civ_border_color="@color/pink_custom"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerInParent="true"
+        android:foregroundGravity=""
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/tvpercent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/progressBar"
+        />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_below="@id/tvpercent"
+        android:layout_width="wrap_content"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Lưu thay đổi" />
+
+</RelativeLayout>

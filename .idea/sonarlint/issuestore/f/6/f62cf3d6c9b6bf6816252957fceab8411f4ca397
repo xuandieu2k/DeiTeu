@@ -1,0 +1,29 @@
+
+O
+java:S1117"9Rename "token" which hides the field declared at line 11.(ûî©Í
+l
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(Êá¼ÿÿÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(Êá¼ÿÿÿÿÿÿ
+s
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(ĞÓâÑúÿÿÿÿ8Å²ÇÆ1
+E	java:S106"+Replace this use of System.out by a logger.(ĞÓâÑúÿÿÿÿ
+s
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(ÇñôŠÿÿÿÿÿ8Å²ÇÆ1
+E	java:S106"+Replace this use of System.out by a logger.(ÇñôŠÿÿÿÿÿ
+s
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(ÊÈ×õıÿÿÿÿ8Õ²ÇÆ1
+E	java:S106"+Replace this use of System.out by a logger.(ÊÈ×õıÿÿÿÿ
+s
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(ôçšåÿÿÿÿÿ8Õ²ÇÆ1
+E	java:S106"+Replace this use of System.out by a logger.(ôçšåÿÿÿÿÿ
+n
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(°Œø8Õ²ÇÆ1
+@	java:S106"+Replace this use of System.out by a logger.(°Œø
+l
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(Ã†…Ñøÿÿÿÿ
+@
+java:S3457"%String contains no format specifiers.(Ã†…Ñøÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(Ã†…Ñøÿÿÿÿ
+m
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(Ôó`8Õ²ÇÆ1
+?	java:S106"+Replace this use of System.out by a logger.(Ôó`

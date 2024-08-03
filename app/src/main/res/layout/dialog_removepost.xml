@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_remove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box_option"
+        android:drawableStart="@drawable/icon_delete"
+        android:drawablePadding="20dp"
+        android:paddingStart="40dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="10dp"
+        android:text="Xóa bỏ"
+        android:textColor="@color/white"
+        android:textAlignment="textStart"
+        android:drawableTint="@color/white"
+        android:textAllCaps="false"
+        android:layout_marginBottom="10dp"
+        android:textSize="22sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_remove"
+        android:background="@drawable/box_option"
+        android:drawableStart="@drawable/icon_report"
+        android:drawablePadding="20dp"
+        android:paddingStart="40dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/white"
+        android:drawableTint="@color/white"
+        android:text="Báo cáo"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="22sp" />
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.PostFragment">
+
+    <include
+        android:id="@+id/toolbar_post"
+        layout="@layout/toolbar_post" />
+    <!-- TODO: Update blank fragment layout -->
+    <!--    <ImageView-->
+    <!--        android:id="@+id/img3"-->
+    <!--        android:layout_width="100dp"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:src="@drawable/icon_handmakelove"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        app:tint="@color/pink_custom" />-->
+    <ProgressBar
+        android:id="@+id/proges_loadpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_post">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycleview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/toolbar_post"
+                android:nestedScrollingEnabled="false" />
+        </LinearLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <ImageButton
+        android:id="@+id/btn_addPost"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/box_icon_addimage"
+        android:padding="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_plus"
+        android:tooltipText="Tạo bài viết"
+        app:tint="@color/white" />
+
+</RelativeLayout>

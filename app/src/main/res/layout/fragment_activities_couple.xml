@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.ActivitiesCoupleFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<!--    <ImageView-->
+<!--        android:id="@+id/img2"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:src="@drawable/icon_activitiescouple"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        app:tint="@color/pink_custom" />-->
+    <include layout="@layout/toolbar_locations"
+        android:id="@+id/toolbar"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleLocation"
+        android:visibility="gone"
+        android:layout_below="@id/layoutsearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:layout_below="@id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="Tính năng đang phát triển"
+        android:textAlignment="center"/>
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/android_developer"/>
+    <LinearLayout
+        android:layout_below="@id/toolbar"
+        android:id="@+id/layoutsearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edtsearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_search"
+            android:drawableLeft="@drawable/icon_gps"
+            android:drawableTint="@color/bluedrken_custom"
+            android:drawablePadding="20dp"
+            android:hint="Địa điểm cần tìm"
+            android:maxLines="1"
+            android:layout_margin="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp" />
+    </LinearLayout>
+</RelativeLayout>

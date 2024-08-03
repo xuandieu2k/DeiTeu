@@ -1,0 +1,9 @@
+
+
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Şıÿÿÿÿ8Ü¯ÇÆ1
+g
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(†¤ú
+@	java:S106"+Replace this use of System.out by a logger.(†¤ú
+n
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(¸Óİı8¡¯˜ŒÆ1
+G	java:S106"+Replace this use of System.out by a logger.(¸Óİı8¡¯˜ŒÆ1

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1017196034665",
+    "firebase_url": "https://deiteu-0905-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "deiteu-0905",
+    "storage_bucket": "deiteu-0905.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017196034665:android:8baa51064f04f68ce680f8",
+        "android_client_info": {
+          "package_name": "com.example.deiteu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017196034665-1p5agp52j73t2s27vg664hpae4tofdac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.deiteu",
+            "certificate_hash": "0085152b28c11087b9f18b5e0ac9cace0cbf8dd4"
+          }
+        },
+        {
+          "client_id": "1017196034665-prrj10g8cniqjsf0o3jtqav7rep29q9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABR1PF0wy0AP43z3bsjVMx8xXI-aKC-5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017196034665-prrj10g8cniqjsf0o3jtqav7rep29q9v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

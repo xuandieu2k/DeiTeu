@@ -1,0 +1,78 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.example.deiteu'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.deiteu"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.firebase:firebase-auth:21.3.0'
+    implementation platform('com.google.firebase:firebase-bom:31.4.0')
+    implementation 'com.google.android.gms:play-services-auth:20.5.0'
+    implementation 'com.google.firebase:firebase-database:20.2.0'
+    implementation 'com.google.firebase:firebase-storage:20.1.0'
+    implementation 'com.google.firebase:firebase-messaging:23.0.3'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'com.facebook.android:facebook-android-sdk:[8,9)'
+
+    implementation 'commons-validator:commons-validator:1.7'
+
+    //
+    implementation 'androidx.viewpager2:viewpager2:1.0.0'
+    implementation 'com.google.android.material:material:1.8.0'
+
+    // dung cho click image in check gender
+    implementation 'com.jakewharton:butterknife:10.2.3'
+    // image circle
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.mikhaellopez:circularimageview:4.3.1'
+    implementation "io.woong.shapedimageview:shapedimageview:1.4.3"
+    // read image from url
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+    // Thư viện card lướt
+    implementation 'com.github.flschweiger:SwipeStack:0.3.0'
+    // Scan QR code
+//    implementation 'com.google.zxing:core:3.4.1'
+//    implementation 'com.journeyapps:zxing-android-embedded:3.6.0'
+    //
+    implementation 'org.apache.commons:commons-text:1.9'
+    implementation 'com.github.chrisbanes:PhotoView:2.3.0'
+// Video call
+//    implementation ('org.jitsi.react:jitsi-meet-sdk:8.1.0') { transitive = true }
+    implementation 'io.agora.rtc:full-sdk:4.1.1'
+    implementation 'commons-codec:commons-codec:1.15'
+
+
+
+}

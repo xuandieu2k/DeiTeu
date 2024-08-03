@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/gender_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:id="@+id/male_layout"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:paddingEnd="10dp"
+            android:background="@drawable/box_noneselect_gender"
+            android:paddingStart="10dp"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radio_male"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/green_custom"
+                android:background="@drawable/icon_male"
+                android:padding="10dp"
+                android:button="@null"
+                android:visibility="visible"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/female_layout"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:paddingEnd="18dp"
+            android:background="@drawable/box_noneselect_gender"
+            android:paddingStart="18dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <RadioButton
+                android:id="@+id/radio_female"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/pink_custom"
+                android:button="@null"
+                android:background="@drawable/icon_female"
+                android:visibility="visible"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/other_layout"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/box_noneselect_gender"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radio_twogender"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:button="@null"
+                android:background="@drawable/icon_twogender2"
+                android:visibility="visible"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="@color/pink_custom"
+    android:elevation="4dp"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+    <!-- Nút quay lại -->
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_backnew"
+        android:background="#00000000"
+        android:layout_gravity="start"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="10dp"
+        app:tint="@color/button_click_any" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_height="wrap_content">
+    <!-- Hình đại diện người dùng -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_gravity="center"
+                android:layout_height="50dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_avatardtchat"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/useimage"
+                    app:civ_border_width="2dp"
+                    app:civ_border_overlay="false"
+                    app:civ_border_color="@color/button_confirm"/>
+                <ImageView
+                    android:id="@+id/img_active"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/active"
+                    android:layout_margin="3dp"
+                    android:layout_gravity="end"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvNameChat"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="Xuân Diệu"
+                android:textSize="16sp"/>
+            <TextView
+                android:id="@+id/tvstatusUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/whitemilk_custom"
+                android:text="Đang hoạt động"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!-- Nút gọi điện -->
+
+    <ImageButton
+        android:id="@+id/callvideo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_videocallnew"
+        android:layout_gravity="end"
+        android:background="#00000000"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="10dp"
+        app:tint="@color/button_click_any" />
+    <ImageButton
+        android:id="@+id/call_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_callnew2"
+        android:layout_gravity="end"
+        android:rotation="0"
+        android:background="#00000000"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        app:tint="@color/button_click_any" />
+
+</androidx.appcompat.widget.Toolbar>

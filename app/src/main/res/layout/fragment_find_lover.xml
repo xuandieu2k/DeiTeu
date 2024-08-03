@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.FindLoverFragment">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_findlover" />
+    <!-- TODO: Update blank fragment layout -->
+<!--    <ImageView-->
+<!--        android:id="@+id/img1"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:src="@drawable/icon_findloveearth"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        app:tint="@color/pink_custom" />-->
+    <link.fls.swipestack.SwipeStack
+        android:layout_below="@id/toolbar"
+        android:id="@+id/swipeStack"
+        android:padding="10dp"
+        android:rotation="0"
+        app:stack_spacing="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/card_user_swap"/>
+    </link.fls.swipestack.SwipeStack>
+
+</RelativeLayout>

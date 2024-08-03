@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />-->
+    <!--    <uses-permission android:name="android.permission.INTERNET" />-->
+    <!--    <uses-permission android:name="android.permission.CAMERA" />-->
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!--    -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- The Agora SDK requires Bluetooth permissions in case users are using Bluetooth devices. -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <!-- For Android 12 and above devices, the following permission is also required. -->
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+<!--    -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+
+    <application
+        android:name=".model.FirebaseHandler"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_final"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DeiTeu"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity.Call"
+            android:resizeableActivity="true"
+            android:exported="false"/>
+        <activity
+            android:name=".activity.VideoCall"
+            android:resizeableActivity="true"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".activity.notificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.contactFriend"
+            android:exported="false" />
+        <activity
+            android:name=".activity.addFriend"
+            android:exported="false" />
+        <activity
+            android:name=".activity.feedback"
+            android:exported="false" />
+        <activity
+            android:name=".activity.HelloUser"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Details_personal"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Details_Post"
+            android:exported="false" />
+        <activity
+            android:name=".activity.edit_infor_user"
+            android:exported="false" />
+        <activity
+            android:name=".activity.create_post"
+            android:exported="false" />
+        <activity
+            android:name=".activity.information_general"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DetailsMessage"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Message"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Home2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ForgetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LoginFacebook"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LoginGoogle"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Signup"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Login"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <service
+            android:name=".service.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".service.CallRoomService"
+            android:enabled="true"
+            android:exported="false" />
+        <service android:name=".service.NotificationService"
+            android:enabled="true"
+            android:exported="false" />
+<!--        <receiver android:name=".service.BootReceiver"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.BOOT_COMPLETED" />-->
+<!--            </intent-filter>-->
+<!--        </receiver>-->
+<!--        <receiver android:name=".service.BootReceiver"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.CLOSE_SYSTEM_DIALOGS" />-->
+<!--            </intent-filter>-->
+<!--        </receiver>-->
+    </application>
+
+</manifest>

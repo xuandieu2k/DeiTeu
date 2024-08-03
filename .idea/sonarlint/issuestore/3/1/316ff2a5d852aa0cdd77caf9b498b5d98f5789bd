@@ -1,0 +1,12 @@
+
+m	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(ó—÷¯
+r	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ùò¦üÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÓ†îúÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€Ú½õ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²ŸÊÿÿÿÿÿ
+z
+java:S1488"dImmediately return this expression instead of assigning it to the temporary variable "token_String".(€Ú½õ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(ŒîÃŒ
+A
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü

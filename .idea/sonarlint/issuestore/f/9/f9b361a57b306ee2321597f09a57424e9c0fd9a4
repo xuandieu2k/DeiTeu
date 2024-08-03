@@ -1,0 +1,8 @@
+
+b	java:S112F"FDefine and throw a dedicated exception instead of using a generic one.(Üò²8€ŸÇÆ1
+a
+java:S1192="KDefine a constant instead of duplicating this literal "0000000000" 3 times.(Úà¶
+P	java:S107;"<Method has 8 parameters, which is greater than 7 authorized.(´î¦6
+Q	java:S107F"<Method has 8 parameters, which is greater than 7 authorized.(Üò²
+U
+java:S1118":Add a private constructor to hide the implicit public one.(›ôÏúÿÿÿÿÿ

@@ -1,0 +1,36 @@
+
+d
+java:S1192A"IDefine a constant instead of duplicating this literal "idCaller" 4 times.(Îé•äúÿÿÿÿ
+e
+java:S1192B"JDefine a constant instead of duplicating this literal "idRecicer" 4 times.(Âíàáşÿÿÿÿ
+R
+java:S25899"7Remove this expression which always evaluates to "true"(€Ù½êùÿÿÿÿ
+R
+java:S2589h"7Remove this expression which always evaluates to "true"(€Ù½êùÿÿÿÿ
+w
+java:S1450"aRemove the "mDatabaseReference" field and declare it as a local variable in the relevant methods.(›İú·
+h
+java:S3776 "RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(ªĞªÄ
+˜
+java:S1186…"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯øÓÀ
+˜
+java:S1186Š"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹²æµ
+˜
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦
+r
+java:S4144V"\Update this method so that its implementation is not identical to "onChildAdded" on line 40.(ùÆ¿Ø
+—
+java:S11865"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦
+—
+java:S1186d"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦
+D
+java:S1185™"(Remove this method to simply inherit it.(İßéàúÿÿÿÿ
+R	java:S125œ"<This block of commented-out lines of code should be removed.(–Ÿıí
+J
+java:S1128"4Remove this unused import 'android.content.Context'.(©Ê‰è
+S
+java:S1128">Remove this unused import 'android.content.SharedPreferences'.(íÎÉr
+D
+java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›
+M
+java:S1068"7Remove this unused "mValueEventListener" private field.(¿³›Ú

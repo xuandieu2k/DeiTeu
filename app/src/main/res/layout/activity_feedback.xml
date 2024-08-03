@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.feedback">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_feedback" />
+    <TextView
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv_headd"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_headd"
+        tools:ignore="HardcodedText"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_headd"
+        android:id="@+id/tv_head"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/tv_head"
+        tools:ignore="HardcodedText" />
+    <LinearLayout
+        android:layout_below="@id/tv_head"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Viết phản hôì của bạn"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edt_feedback"
+            android:layout_marginTop="10dp"
+            android:gravity="top|start"
+            android:background="@drawable/box_editstring"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:maxLength="500"
+            android:layout_height="200dp"/>
+        <TextView
+            android:id="@+id/textView_word_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 / 500"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="end"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Đính kèm hình ảnh"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/imgview_addpicture"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="start"
+            android:background="@drawable/box_image"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:src="@drawable/icon_plus"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_send"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gửi"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/button_bg_post"
+            android:layout_gravity="end"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,88 @@
+
+h	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(½”’úÿÿÿÿ8–ªÇÆ1
+a
+java:S1192q"KDefine a constant instead of duplicating this literal "HmacSHA256" 5 times.(é—üŠ
+„
+java:S1319Á"mThe type of "privileges" should be an interface such as "SortedMap" rather than the implementation "TreeMap".(ƒÑ¸ó
+
+java:S1319ß"sThe return type of this method should be an interface such as "SortedMap" rather than the implementation "TreeMap".(¥ÜïÌúÿÿÿÿ
+i
+java:S1104"TMake intValue a static final constant or non-public and provide accessors if needed.(õÌë+
+i
+java:S1104"TMake intValue a static final constant or non-public and provide accessors if needed.(õÌë+
+i
+java:S1104'"TMake intValue a static final constant or non-public and provide accessors if needed.(õÌë+
+i
+java:S11043"TMake intValue a static final constant or non-public and provide accessors if needed.(õÌë+
+i
+java:S1104@"TMake intValue a static final constant or non-public and provide accessors if needed.(õÌë+
+n
+java:S1104N"SMake appCert a static final constant or non-public and provide accessors if needed.(ï»šúüÿÿÿÿ
+g
+java:S1104O"QMake appId a static final constant or non-public and provide accessors if needed.(À°®
+m
+java:S1104P"RMake expire a static final constant or non-public and provide accessors if needed.(ßÿÂÎøÿÿÿÿ
+n
+java:S1104Q"SMake issueTs a static final constant or non-public and provide accessors if needed.(Ãòüƒûÿÿÿÿ
+k
+java:S1104R"PMake salt a static final constant or non-public and provide accessors if needed.(¢ÊÃøşÿÿÿÿ
+o
+java:S1104S"TMake services a static final constant or non-public and provide accessors if needed.(Ú‘°µÿÿÿÿÿ
+g
+java:S1104À"PMake type a static final constant or non-public and provide accessors if needed.(ÌšÇ…
+m
+java:S1104Á"VMake privileges a static final constant or non-public and provide accessors if needed.(ƒÑ¸ó
+s
+java:S1104ñ"WMake channelName a static final constant or non-public and provide accessors if needed.(ğÂğÿÿÿÿÿ
+k
+java:S1104ò"OMake uid a static final constant or non-public and provide accessors if needed.(Ê¶È÷ıÿÿÿÿ
+i
+java:S1104’"RMake userId a static final constant or non-public and provide accessors if needed.(ˆÀÕô
+i
+java:S1104º"RMake userId a static final constant or non-public and provide accessors if needed.(ˆÀÕô
+k
+java:S1104Õ"TMake roomUuid a static final constant or non-public and provide accessors if needed.(Ù¬ŒÎ
+p
+java:S1104Ö"TMake userUuid a static final constant or non-public and provide accessors if needed.(„‚ûÿÿÿÿ
+g
+java:S1104×"PMake role a static final constant or non-public and provide accessors if needed.(—›¬‘
+8
+java:S3066"#Lower the visibility of this field.(õÌë+
+8
+java:S3066"#Lower the visibility of this field.(õÌë+
+8
+java:S3066'"#Lower the visibility of this field.(õÌë+
+8
+java:S30663"#Lower the visibility of this field.(õÌë+
+8
+java:S3066@"#Lower the visibility of this field.(õÌë+
+G
+java:S1602m",Remove useless curly braces around statement(ÛÂƒéøÿÿÿÿ
+T
+java:S1854ª"=Remove this useless assignment to local variable "signature".(Òä‰
+E
+java:S1481ª".Remove this unused "signature" local variable.(Òä‰
+X
+java:S1161†":Add the "@Override" annotation above this method signature(´ùÏ€8³«ÇÆ1
+]
+java:S1161Š":Add the "@Override" annotation above this method signature(ıùËÈúÿÿÿÿ8³«ÇÆ1
+X
+java:S1161¡":Add the "@Override" annotation above this method signature(´ùÏ€8³«ÇÆ1
+]
+java:S1161¥":Add the "@Override" annotation above this method signature(ıùËÈúÿÿÿÿ8³«ÇÆ1
+?
+java:S1185°"(Remove this method to simply inherit it.(´ùÏ€
+X
+java:S1161°":Add the "@Override" annotation above this method signature(´ùÏ€8³«ÇÆ1
+D
+java:S1185´"(Remove this method to simply inherit it.(ıùËÈúÿÿÿÿ
+]
+java:S1161´":Add the "@Override" annotation above this method signature(ıùËÈúÿÿÿÿ8³«ÇÆ1
+X
+java:S1161Ê":Add the "@Override" annotation above this method signature(´ùÏ€8³«ÇÆ1
+]
+java:S1161Î":Add the "@Override" annotation above this method signature(ıùËÈúÿÿÿÿ8Ò«ÇÆ1
+X
+java:S1161ú":Add the "@Override" annotation above this method signature(´ùÏ€8Ò«ÇÆ1
+]
+java:S1161ş":Add the "@Override" annotation above this method signature(ıùËÈúÿÿÿÿ8Ò«ÇÆ1

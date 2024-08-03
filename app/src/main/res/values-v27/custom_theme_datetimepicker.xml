@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomDialogTheme" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">#00000000</item>
+        <item name="colorAccent">@color/pink_custom</item>
+        <item name="android:textColor">@color/pink_custom</item>
+        <item name="android:navigationBarDividerColor">@color/green_custom</item>
+    </style>
+</resources>
